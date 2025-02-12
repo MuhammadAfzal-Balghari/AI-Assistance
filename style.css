@@ -1,0 +1,61 @@
+@import url('https://fonts.googleapis.com/css2?family=Rowdies:wght@300;400;700&display=swap');
+*{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+body{
+    height: 100%;
+    width: 100%;
+    background-color: hsl(199, 85%, 5%);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 30px;
+    flex-direction: column;
+    margin-top: 100px;
+}
+#logo{
+    width: 20%;
+}
+h1{
+    color: aliceblue;
+    font-family: "Rowdies", sans-serif;
+}
+#name{
+    color: rgb(52, 149, 190);
+    font-size: 40px;
+}
+#va{
+    color: #3ad1e4;
+    font-size: 40px;
+}
+#voice{
+    width: 150px;
+    display: none;
+}
+#btn{
+    width: 30%;
+    height: 60px;
+    border-radius: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 20px;
+    color: aliceblue;
+    font-family: "Rowdies", sans-serif;
+    background: linear-gradient(to right, rgb(52, 149, 190),rgb(59, 198, 196));
+    box-shadow: 2px 2px 10px  rgb(52, 149, 190), 2px 2px 10px  rgb(59, 198, 196);
+    border: none;
+    transition: all 0.5s;
+    cursor: pointer;
+}
+#btn:hover{
+    box-shadow: 2px 2px 20px  rgb(59, 198, 196), 2px 2px 20px  rgb(96, 45, 45);
+    letter-spacing: 2px;
+}
+#mic{
+    width: 28px;
+    margin-right: 8px;
+    
+}
